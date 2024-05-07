@@ -1,7 +1,7 @@
-import { createSafeActionClient } from "next-safe-action";
-import { z } from "zod";
+"use server"
 
-export const actionClient = createSafeActionClient();
+import { z } from "zod";
+import { actionClient } from "../lib/safe-action";
 
 export const testAction = actionClient
   .schema(z.void())
