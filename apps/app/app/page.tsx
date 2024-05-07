@@ -3,6 +3,8 @@
 import { testAction } from "./actions/test-action";
 import { useAction } from 'next-safe-action/hooks';
 
+export const runtime = 'edge';
+
 export default function Page() {
   const { execute } = useAction(testAction, {
     onSuccess: ({ data }) => {
