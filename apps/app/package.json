@@ -13,10 +13,14 @@
   "dependencies": {
     "@acme/ui": "workspace:*",
     "@acme/utils": "workspace:*",
+    "@typeschema/zod": "^0.13.3",
     "@vercel/examples-ui": "^1.0.4",
     "next": "canary",
+    "next-safe-action": "7.0.0-next.33",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "zod": "^3.23.6",
+    "zod-to-json-schema": "^3.23.0"
   },
   "devDependencies": {
     "@types/node": "^18.0.0",
